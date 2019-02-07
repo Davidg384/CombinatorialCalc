@@ -4,7 +4,9 @@ using namespace std;
 
 
 int main(){
-	int choice, n, k;
+	int choice;
+	long int n;
+ 	long int k;
 	cout << "Combinatorics Calculator v.1.1.0" << endl << endl;
 	while(true){
 		cout << "[0] Factorial \n[1] Permutation \n[2] Combination \n[3] Multicombination \n[4] Exit" << endl;
