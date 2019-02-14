@@ -2,12 +2,12 @@
 #include <iostream>
 using namespace std;
 
-
 int main(){
+	float version = 1.2;
 	int choice;
 	long int n;
  	long int k;
-	cout << "Combinatorics Calculator v.1.1.0" << endl << endl;
+	cout << "Combinatorics Calculator v" << version << endl << endl;
 	while(true){
 		cout << "[0] Factorial \n[1] Permutation \n[2] Combination \n[3] Multicombination \n[4] Exit" << endl;
 		cin >> choice;
